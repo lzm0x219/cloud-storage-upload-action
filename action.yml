@@ -1,0 +1,6 @@
+name: "OSS Upload"
+description: "Provide oss upload function and support multiple cloud service providers"
+author: "摸奶伯德"
+runs:
+  using: "node16"
+  main: "dist/index.js"

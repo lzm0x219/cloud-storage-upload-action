@@ -1,0 +1,46 @@
+{
+  "name": "oss-upload-action",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "Provide oss upload function and support multiple cloud service providers",
+  "keywords": [
+    "github-action",
+    "oss",
+    "oss-upload",
+    "aliyun",
+    "tencent"
+  ],
+  "license": "MIT",
+  "author": "摸奶伯德",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/main.ts --source-map",
+    "preinstall": "npx only-allow pnpm -y",
+    "prepare": "is-ci || husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,cjs}": [
+      "rome format --write",
+      "rome check"
+    ],
+    "*.{md,html,css,json,yml}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
+    "package.json": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "@actions/core": "1.10.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.3",
+    "@types/node": "18.11.9",
+    "@vercel/ncc": "0.34.0",
+    "husky": "8.0.2",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.4",
+    "prettier": "2.8.0",
+    "prettier-plugin-packagejson": "2.3.0",
+    "rome": "10.0.1-nightly.b7eb6fd",
+    "sort-package-json": "2.1.0",
+    "typescript": "4.9.3"
+  }
+}
