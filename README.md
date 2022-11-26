@@ -1,3 +1,3 @@
-# oss-upload-action
+# cloud-storage-upload-action
 
-🆙 Provide oss upload function and support multiple cloud service providers.
+🆙 Provide cloud storage upload and support multiple cloud service providers.

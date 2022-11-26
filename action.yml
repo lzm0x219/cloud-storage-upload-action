@@ -1,5 +1,5 @@
-name: "OSS Upload"
-description: "Provide oss upload function and support multiple cloud service providers"
+name: "CloudStorage Upload"
+description: "Provide cloud storage upload and support multiple cloud service providers"
 author: "摸奶伯德"
 runs:
   using: "node16"
