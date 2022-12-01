@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@tsconfig/node16": "1.0.3",
-    "@types/node": "18.11.9",
+    "@types/node": "18.11.10",
     "@vercel/ncc": "0.34.0",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
