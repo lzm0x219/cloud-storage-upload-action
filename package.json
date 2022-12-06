@@ -33,7 +33,7 @@
   "dependencies": {
     "@actions/core": "1.10.0",
     "ali-oss": "6.17.1",
-    "cos-nodejs-sdk-v5": "2.11.17"
+    "cos-nodejs-sdk-v5": "2.11.18"
   },
   "devDependencies": {
     "@tsconfig/node16": "1.0.3",
