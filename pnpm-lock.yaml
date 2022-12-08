@@ -14,7 +14,7 @@ specifiers:
   prettier-plugin-packagejson: 2.3.0
   rome: 11.0.0
   sort-package-json: 2.1.0
-  typescript: 4.9.3
+  typescript: 4.9.4
 
 dependencies:
   '@actions/core': 1.10.0
@@ -32,7 +32,7 @@ devDependencies:
   prettier-plugin-packagejson: 2.3.0_prettier@2.8.1
   rome: 11.0.0
   sort-package-json: 2.1.0
-  typescript: 4.9.3
+  typescript: 4.9.4
 
 packages:
 
@@ -2044,8 +2044,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.9.3:
-    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
