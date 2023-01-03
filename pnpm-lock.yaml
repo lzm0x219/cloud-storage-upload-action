@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@actions/core': 1.10.0
   '@tsconfig/node16': 1.0.3
-  '@types/node': 18.11.12
+  '@types/node': 18.11.18
   '@vercel/ncc': 0.36.0
   ali-oss: 6.17.1
   cos-nodejs-sdk-v5: 2.11.19
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node16': 1.0.3
-  '@types/node': 18.11.12
+  '@types/node': 18.11.18
   '@vercel/ncc': 0.36.0
   husky: 8.0.2
   is-ci: 3.0.1
@@ -131,15 +131,15 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.11.12
+      '@types/node': 18.11.18
     dev: true
 
   /@types/minimatch/5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
     dev: true
 
-  /@types/node/18.11.12:
-    resolution: {integrity: sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
 
   /@vercel/ncc/0.36.0:
